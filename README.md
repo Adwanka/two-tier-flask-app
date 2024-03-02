@@ -98,6 +98,8 @@ ii) Backend container
 ```bash
 docker run -d --name flaskapp -v mysql-data:/var/lib/mysql -v ./message.sql:/docker-entrypoint-initdb.d/message.sql --network=twotier -e MYSQL_HOST=mysql -e MYSQL_USER=root -e MYSQL_PASSWORD=admin -e MYSQL_DB=mydb -p 5000:5000 flaskapp:latest
 ```
+![image](https://github.com/Adwanka/two-tier-flask-app/assets/134200094/dafd292e-008e-4f46-99f9-126201eac71b)
+
 
 ## Notes
 
